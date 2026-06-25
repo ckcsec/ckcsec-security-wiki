@@ -4,7 +4,7 @@
   <a href="#english">English</a> | <a href="#中文">中文</a>
 </p>
 
-![CKCsec Wiki bilingual documentation workspace](docs/public/images/ckcsec-docs-terminal.svg)
+<img width="1570" height="862" alt="image" src="https://github.com/user-attachments/assets/62280133-704a-4918-ae32-0576fde1d032" />
 
 ## English
 
@@ -14,8 +14,8 @@ The project is built with VitePress. Chinese is the default site, and a complete
 
 ### Online Access
 
-- Chinese site: <https://wiki.ckcsec.cn/>
-- English site: <https://wiki.ckcsec.cn/en/>
+- Chinese site: <https://wiki.ckcsec.com/>
+- English site: <https://wiki.ckcsec.com/en/>
 - GitHub repository: <https://github.com/ckcsec/wiki-vitepress>
 
 ### Highlights
@@ -90,8 +90,8 @@ CKCsec Wiki 是 CKCsec 安全研究院维护的网络安全知识文库，面向
 
 ### 在线访问
 
-- 中文站点：<https://wiki.ckcsec.cn/>
-- English site：<https://wiki.ckcsec.cn/en/>
+- 中文站点：<https://wiki.ckcsec.com/>
+- English site：<https://wiki.ckcsec.com/en/>
 - GitHub 仓库：<https://github.com/ckcsec/wiki-vitepress>
 
 ### 项目特点
