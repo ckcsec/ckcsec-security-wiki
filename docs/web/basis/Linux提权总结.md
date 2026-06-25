@@ -943,7 +943,7 @@ sudoers文件主要有三部分组成：
 
 语法
 
-```b
+```text
 root ALL=(ALL) ALL
 ```
 
