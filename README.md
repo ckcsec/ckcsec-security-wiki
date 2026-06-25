@@ -14,8 +14,8 @@ CKCsec Wiki 是 CKCsec 安全研究院维护的网络安全知识文库，面向
 
 ### 在线访问
 
-- 中文站点：<https://wiki.ckcsec.cn/>
-- English site：<https://wiki.ckcsec.cn/en/>
+- 中文站点：<https://wiki.ckcsec.com/>
+- English site：<https://wiki.ckcsec.com/en/>
 - GitHub 仓库：<https://github.com/ckcsec/wiki-vitepress>
 
 ### 项目特点
@@ -90,8 +90,8 @@ The project is built with VitePress. Chinese is the default site, and a complete
 
 ### Online Access
 
-- Chinese site: <https://wiki.ckcsec.cn/>
-- English site: <https://wiki.ckcsec.cn/en/>
+- Chinese site: <https://wiki.ckcsec.com/>
+- English site: <https://wiki.ckcsec.com/en/>
 - GitHub repository: <https://github.com/ckcsec/wiki-vitepress>
 
 ### Highlights
