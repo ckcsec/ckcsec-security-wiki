@@ -4,7 +4,7 @@
   <a href="#中文">中文</a> | <a href="#english">English</a>
 </p>
 
-![CKCsec Wiki bilingual documentation workspace](docs/public/images/ckcsec-docs-terminal.svg)
+<img width="1570" height="862" alt="image" src="https://github.com/user-attachments/assets/62280133-704a-4918-ae32-0576fde1d032" />
 
 ## 中文
 
