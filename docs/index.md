@@ -33,8 +33,8 @@ features:
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #0ea5e9 20%, #14b8a6);
-  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(14, 165, 233, 0.28), rgba(20, 184, 166, 0.28));
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #ff8a3d 20%, #f0530f);
+  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(255, 138, 61, 0.30), rgba(240, 83, 15, 0.30));
   --vp-home-hero-image-filter: blur(42px);
 }
 
