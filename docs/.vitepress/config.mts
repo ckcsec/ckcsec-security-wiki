@@ -334,11 +334,13 @@ export default defineConfig({
   lastUpdated: true,
   srcExclude: ['superpowers/**'],
   head: [
-    ['link', { rel: 'icon', href: 'https://ckcsec.oss-cn-hangzhou.aliyuncs.com/img/ckc.jpg' }],
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '512x512', href: '/favicon.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'CKCsec Wiki' }],
-    ['meta', { property: 'og:image', content: 'https://ckcsec.oss-cn-hangzhou.aliyuncs.com/img/ckc.jpg' }]
+    ['meta', { property: 'og:image', content: 'https://wiki.ckcsec.com/images/ckcsec-logo.png' }]
   ],
   transformPageData: (pageData, { siteConfig }) => {
     if (!pageData.description) {
