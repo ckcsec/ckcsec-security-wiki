@@ -1,0 +1,43 @@
+/**
+ * CKCsec Wiki 主题定制：将 VitePress 品牌色统一为 logo 橙色系。
+ * 影响按钮、链接、导航激活态、搜索框、代码高亮等全站主色。
+ */
+
+:root {
+  --vp-c-brand-1: #e94f0d;
+  --vp-c-brand-2: #f0530f;
+  --vp-c-brand-3: #f0530f;
+  --vp-c-brand-soft: rgba(240, 83, 15, 0.14);
+
+  /* 兼容旧变量别名 */
+  --vp-c-brand: var(--vp-c-brand-1);
+  --vp-c-brand-light: var(--vp-c-brand-2);
+  --vp-c-brand-lighter: #ff8a3d;
+  --vp-c-brand-dark: #c94209;
+  --vp-c-brand-darker: #a8360a;
+
+  /* 实心按钮（白字橙底） */
+  --vp-button-brand-bg: #f0530f;
+  --vp-button-brand-hover-bg: #ff6a24;
+  --vp-button-brand-active-bg: #d9480c;
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-active-border: transparent;
+}
+
+.dark {
+  --vp-c-brand-1: #ff8a3d;
+  --vp-c-brand-2: #ff7a2b;
+  --vp-c-brand-3: #f0530f;
+  --vp-c-brand-soft: rgba(255, 138, 61, 0.16);
+
+  --vp-c-brand: var(--vp-c-brand-1);
+  --vp-c-brand-light: var(--vp-c-brand-2);
+  --vp-c-brand-lighter: #ffa465;
+  --vp-c-brand-dark: #f0530f;
+  --vp-c-brand-darker: #c94209;
+
+  --vp-button-brand-bg: #f0530f;
+  --vp-button-brand-hover-bg: #ff6a24;
+  --vp-button-brand-active-bg: #d9480c;
+}
