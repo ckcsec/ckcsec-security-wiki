@@ -307,7 +307,25 @@ export default defineConfig({
   lang: 'zh-CN',
   lastUpdated: true,
   srcExclude: ['superpowers/**'],
-  head: [['link', { rel: 'icon', href: 'https://ckcsec.oss-cn-hangzhou.aliyuncs.com/img/ckc.jpg' }]],
+  head: [
+    ['link', { rel: 'icon', href: 'https://ckcsec.oss-cn-hangzhou.aliyuncs.com/img/ckc.jpg' }],
+    ['meta', { name: 'robots', content: 'index, follow' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: 'CKCsec Wiki' }],
+    ['meta', { property: 'og:image', content: 'https://ckcsec.oss-cn-hangzhou.aliyuncs.com/img/ckc.jpg' }]
+  ],
+  transformHead: ({ pageData, siteConfig }) => {
+    const isEn = pageData.relativePath.startsWith('en/')
+    const path = pageData.relativePath
+      .replace(/(^|\/)index\.md$/, '$1')
+      .replace(/\.md$/, '.html')
+    const canonical = `https://wiki.ckcsec.com/${path}`
+    return [
+      ['link', { rel: 'canonical', href: canonical }],
+      ['meta', { property: 'og:url', content: canonical }],
+      ['meta', { property: 'og:locale', content: isEn ? 'en_US' : 'zh_CN' }]
+    ]
+  },
   locales: {
     root: {
       label: '简体中文',
@@ -365,12 +383,12 @@ export default defineConfig({
       provider: 'local'
     },
     socialLinks,
-    sitemap: {
-      hostname: 'https://wiki.ckcsec.com'
-    },
     footer: {
       message: '基于 MIT 许可发布',
       copyright: 'Copyright © 2021-2026'
     }
+  },
+  sitemap: {
+    hostname: 'https://wiki.ckcsec.com'
   }
 })
