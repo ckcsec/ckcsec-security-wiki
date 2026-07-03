@@ -1,5 +1,5 @@
 ---
-title: ckcsec/wiki-vitepress
+title: ckcsec/ckcsec-security-wiki
 ---
 
 # About the Library
@@ -14,4 +14,4 @@ ckcsec
 
 ## Project URL
 
-https://github.com/ckcsec/wiki-vitepress
+https://github.com/ckcsec/ckcsec-security-wiki

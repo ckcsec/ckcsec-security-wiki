@@ -16,7 +16,7 @@ hero:
       link: /
     - theme: alt
       text: GitHub
-      link: https://github.com/ckcsec/wiki-vitepress
+      link: https://github.com/ckcsec/ckcsec-security-wiki
   image:
     src: /images/ckcsec-docs-terminal.svg
     alt: CKCsec Wiki bilingual documentation workspace

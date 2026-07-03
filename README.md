@@ -16,7 +16,7 @@ The project is built with VitePress. Chinese is the default site, and a complete
 
 - Chinese site: <https://wiki.ckcsec.com/>
 - English site: <https://wiki.ckcsec.com/en/>
-- GitHub repository: <https://github.com/ckcsec/wiki-vitepress>
+- GitHub repository: <https://github.com/ckcsec/ckcsec-security-wiki>
 
 ### Highlights
 
@@ -92,7 +92,7 @@ CKCsec Wiki 是 CKCsec 安全研究院维护的网络安全知识文库，面向
 
 - 中文站点：<https://wiki.ckcsec.com/>
 - English site：<https://wiki.ckcsec.com/en/>
-- GitHub 仓库：<https://github.com/ckcsec/wiki-vitepress>
+- GitHub 仓库：<https://github.com/ckcsec/ckcsec-security-wiki>
 
 ### 项目特点
 

@@ -324,7 +324,7 @@ const enNav = localizeItems(zhNav)
 const enSidebar = localizeSidebar(zhSidebar)
 
 const socialLinks = [
-  { icon: 'github', link: 'https://github.com/ckcsec/wiki-vitepress' }
+  { icon: 'github', link: 'https://github.com/ckcsec/ckcsec-security-wiki' }
 ]
 
 export default defineConfig({

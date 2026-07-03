@@ -1,5 +1,5 @@
 ---
-title: ckcsec/wiki-vitepress
+title: ckcsec/ckcsec-security-wiki
 ---
 
 # 关于文库
@@ -14,5 +14,5 @@ ckcsec
 
 ## 项目地址
 
-https://github.com/ckcsec/wiki-vitepress
+https://github.com/ckcsec/ckcsec-security-wiki
 
