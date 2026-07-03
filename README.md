@@ -5,7 +5,9 @@
 - 🇺🇸 [English](./README.md)
 - 🇨🇳 [简体中文](./README_zh.md)
 
-<img width="1570" height="862" alt="image" src="https://github.com/user-attachments/assets/62280133-704a-4918-ae32-0576fde1d032" />
+<p align="center">
+  <img width="320" alt="CKCsec Security Research Institute" src="docs/public/images/ckcsec-logo.png" />
+</p>
 
 CKCsec Wiki is a cybersecurity knowledge base maintained by CKCsec Security Research Institute. It is built for security researchers, security service engineers, CTF players, red-team learners, and security enthusiasts. The project covers Web security, blockchain security, CTF, red-team topics, incident response, tool usage, environment notes, and security projects. Its goal is to preserve practical security knowledge in a form that is searchable, learnable, and shareable.
 

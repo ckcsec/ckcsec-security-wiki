@@ -5,7 +5,9 @@
 - 🇺🇸 [English](./README.md)
 - 🇨🇳 [简体中文](./README_zh.md)
 
-<img width="1570" height="862" alt="image" src="https://github.com/user-attachments/assets/62280133-704a-4918-ae32-0576fde1d032" />
+<p align="center">
+  <img width="320" alt="CKCsec 安全研究院" src="docs/public/images/ckcsec-logo.png" />
+</p>
 
 CKCsec Wiki 是 CKCsec 安全研究院维护的网络安全知识文库，面向安全研究员、安全服务工程师、CTF 选手、红蓝对抗学习者和安全爱好者。项目内容覆盖 Web 安全、区块链安全、CTF、红蓝对抗、应急响应、工具使用、环境避坑与安全项目等方向，目标是把可检索、可学习、可共享的安全实践长期沉淀下来。
 

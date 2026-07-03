@@ -18,8 +18,8 @@ hero:
       text: GitHub
       link: https://github.com/ckcsec/ckcsec-security-wiki
   image:
-    src: /images/ckcsec-docs-terminal.svg
-    alt: CKCsec Wiki 中英文文档工作台
+    src: /images/ckcsec-logo.png
+    alt: CKCsec 安全研究院
 
 features:
   - title: 开源共享

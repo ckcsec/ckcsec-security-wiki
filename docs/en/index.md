@@ -18,8 +18,8 @@ hero:
       text: GitHub
       link: https://github.com/ckcsec/ckcsec-security-wiki
   image:
-    src: /images/ckcsec-docs-terminal.svg
-    alt: CKCsec Wiki bilingual documentation workspace
+    src: /images/ckcsec-logo.png
+    alt: CKCsec Security Research Institute
 
 features:
   - title: Open Knowledge
