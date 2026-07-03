@@ -1,4 +1,30 @@
 import { defineConfig } from 'vitepress'
+import fs from 'node:fs'
+import path from 'node:path'
+
+// 从 Markdown 正文中提取首段纯文本，作为页面 description（供搜索引擎摘要使用）
+const extractDescription = (srcDir: string, relativePath: string): string => {
+  try {
+    const raw = fs.readFileSync(path.join(srcDir, relativePath), 'utf-8')
+    // 去掉 frontmatter
+    const body = raw.replace(/^---\n[\s\S]*?\n---\n/, '')
+    for (let line of body.split('\n')) {
+      line = line.trim()
+      if (!line) continue
+      if (/^(#|<|!\[|\||```|>|-{3,}|\*{3,}|:::)/.test(line)) continue // 跳过标题/HTML/图片/表格/代码块等
+      const text = line
+        .replace(/!\[[^\]]*\]\([^)]*\)/g, '') // 图片
+        .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1') // 链接保留文字
+        .replace(/[*`#>]/g, '') // 行内标记（保留下划线，避免破坏代码标识符）
+        .trim()
+      if (text.length < 10) continue
+      return text.length > 150 ? text.slice(0, 147) + '...' : text
+    }
+  } catch {
+    // 忽略读取失败，回退到站点默认描述
+  }
+  return ''
+}
 
 const zhNav = [
   { text: '主页', link: '/' },
@@ -314,16 +340,31 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: 'CKCsec Wiki' }],
     ['meta', { property: 'og:image', content: 'https://ckcsec.oss-cn-hangzhou.aliyuncs.com/img/ckc.jpg' }]
   ],
+  transformPageData: (pageData, { siteConfig }) => {
+    if (!pageData.description) {
+      const desc = extractDescription(siteConfig.srcDir, pageData.relativePath)
+      if (desc) pageData.description = desc
+    }
+  },
   transformHead: ({ pageData, siteConfig }) => {
     const isEn = pageData.relativePath.startsWith('en/')
-    const path = pageData.relativePath
+    const urlPath = pageData.relativePath
       .replace(/(^|\/)index\.md$/, '$1')
       .replace(/\.md$/, '.html')
-    const canonical = `https://wiki.ckcsec.com/${path}`
+    const canonical = `https://wiki.ckcsec.com/${urlPath}`
+    const title = pageData.title
+      ? `${pageData.title} | CKCsec Wiki`
+      : (siteConfig.site.title || 'CKCsec Wiki')
+    const description = pageData.description || siteConfig.site.description
     return [
       ['link', { rel: 'canonical', href: canonical }],
       ['meta', { property: 'og:url', content: canonical }],
-      ['meta', { property: 'og:locale', content: isEn ? 'en_US' : 'zh_CN' }]
+      ['meta', { property: 'og:locale', content: isEn ? 'en_US' : 'zh_CN' }],
+      ['meta', { property: 'og:title', content: title }],
+      ['meta', { property: 'og:description', content: description }],
+      ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+      ['meta', { name: 'twitter:title', content: title }],
+      ['meta', { name: 'twitter:description', content: description }]
     ]
   },
   locales: {
