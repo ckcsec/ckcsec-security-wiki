@@ -1,5 +1,0 @@
----
-title: Misc
----
-
-# Misc

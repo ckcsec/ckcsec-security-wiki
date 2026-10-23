@@ -64,14 +64,8 @@ const zhNav = [
     ]
   },
   {
-    text: 'CTF',
-    items: [
-      { text: 'Misc', link: '/ctf/Misc/' },
-      { text: 'Web', link: '/ctf/Web/' },
-      { text: 'Pwn', link: '/ctf/Pwn/' },
-      { text: 'Crypto', link: '/ctf/Crypto/' },
-      { text: 'Reverse', link: '/ctf/Reverse/' }
-    ]
+    text: 'CTF复现计划',
+    link: '/ctf/'
   },
   {
     text: '友情链接',
@@ -245,6 +239,7 @@ const enText: Record<string, string> = {
   '红蓝对抗': 'Red Team',
   '流量隐匿': 'Traffic Concealment',
   '免杀对抗': 'AV Evasion',
+  'CTF复现计划': 'CTF Reproduction Plan',
   '友情链接': 'Links',
   '合作伙伴': 'Partners',
   '安全项目': 'Security Projects',
