@@ -71,9 +71,7 @@ const zhNav = [
     text: '友情链接',
     items: [
       { text: '合作伙伴', link: '/cooperation/friend/' },
-      { text: '安全项目', link: '/cooperation/recruit/' },
-      { text: '开源项目', link: '/cooperation/project/' },
-      { text: '自用黑科技', link: '/cooperation/hacking/' }
+      { text: '开源项目', link: '/cooperation/project/' }
     ]
   }
 ]
@@ -184,8 +182,7 @@ const zhSidebar = {
       text: '流量隐匿',
       items: [
         { text: '基于代理池', link: '/redteam/流量隐匿/基于代理池' },
-        { text: '基于云函数', link: '/redteam/流量隐匿/基于云函数' },
-        { text: 'NDAY批量上线', link: '/redteam/流量隐匿/NDAY批量上线' }
+        { text: '基于云函数', link: '/redteam/流量隐匿/基于云函数' }
       ]
     }
   ],
@@ -203,16 +200,6 @@ const zhSidebar = {
       items: [
         { text: 'NGCBot', link: '/cooperation/project/NGCBot' },
         { text: 'ckcsecwiki', link: '/cooperation/project/ckcsecwiki' }
-      ]
-    }
-  ],
-  '/cooperation/recruit/': [
-    {
-      text: '安全项目',
-      items: [
-        { text: '2025国护招聘', link: '/cooperation/recruit/2025国护招聘' },
-        { text: '安全实习生招聘', link: '/cooperation/recruit/安全实习生招聘' },
-        { text: '驻场安全服务工程师', link: '/cooperation/recruit/aqzc' }
       ]
     }
   ]
@@ -242,9 +229,7 @@ const enText: Record<string, string> = {
   'CTF复现计划': 'CTF Reproduction Plan',
   '友情链接': 'Links',
   '合作伙伴': 'Partners',
-  '安全项目': 'Security Projects',
   '开源项目': 'Open Source Projects',
-  '自用黑科技': 'Utilities',
   '安服工程师基础': 'Security Service Engineer Basics',
   '弱口令漏洞': 'Weak Password Vulnerabilities',
   '文件上传漏洞': 'File Upload Vulnerabilities',
@@ -275,11 +260,7 @@ const enText: Record<string, string> = {
   '待完善': 'To Be Improved',
   '基于代理池': 'Proxy Pool Based Concealment',
   '基于云函数': 'Cloud Function Based Concealment',
-  'NDAY批量上线': 'Batch N-day Deployment',
-  '免杀技术探讨（一）': 'AV Evasion Techniques Part 1',
-  '2025国护招聘': '2025 National Cyber Defense Recruitment',
-  '安全实习生招聘': 'Security Intern Recruitment',
-  '驻场安全服务工程师': 'On-site Security Service Engineer'
+  '免杀技术探讨（一）': 'AV Evasion Techniques Part 1'
 }
 
 type NavItem = {
