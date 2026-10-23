@@ -43,8 +43,7 @@ const zhNav = [
       { text: '靶场篇', link: '/web/range/' },
       { text: '工具篇', link: '/web/tools/' },
       { text: '漏洞速递', link: '/web/cert/' },
-      { text: '应急响应', link: '/web/emer/' },
-      { text: 'SRC', link: '/web/SRC/' }
+      { text: '应急响应', link: '/web/emer/' }
     ]
   },
   {
@@ -156,14 +155,6 @@ const zhSidebar = {
       ]
     }
   ],
-  '/web/SRC/': [
-    {
-      text: 'SRC',
-      items: [
-        { text: 'AI 时代下的 SRC 挖掘', link: '/web/SRC/AI时代下的SRC挖掘' }
-      ]
-    }
-  ],
   '/blockchain/': [
     {
       text: '区块链',
@@ -225,7 +216,6 @@ const enText: Record<string, string> = {
   '漏洞速递': 'Vulnerability Notes',
   '应急响应': 'Incident Response',
   '应急响应篇': 'Incident Response',
-  'AI 时代下的 SRC 挖掘': 'SRC Hunting in the AI Era',
   '区块链': 'Blockchain',
   '区块链入门': 'Blockchain Basics',
   '区块链市场': 'Blockchain Markets',
