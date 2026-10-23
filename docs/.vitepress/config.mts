@@ -161,10 +161,7 @@ const zhSidebar = {
     {
       text: '漏洞速递',
       items: [
-        { text: '蓝凌EIS8.0前台文件上传', link: '/web/cert/蓝凌EIS8.0前台文件上传' },
-        { text: '朗新天霁sTalent前台文件上传', link: '/web/cert/朗新天霁sTalent前台文件上传' },
-        { text: '浙江宇视科技SQL注入', link: '/web/cert/浙江宇视科技SQL注入' },
-        { text: '方略知识管理系统SQL注入', link: '/web/cert/方略知识管理系统SQL注入' }
+        { text: 'PHP2Shell 漏洞分析复现与修复', link: '/web/cert/php2shell-漏洞分析复现与修复' }
       ]
     }
   ],
@@ -277,10 +274,7 @@ const enText: Record<string, string> = {
   'AWVS的安装破解': 'AWVS Installation',
   'Nessus安装破解': 'Nessus Installation',
   'PowerShell攻击指南': 'PowerShell Attack Guide',
-  '蓝凌EIS8.0前台文件上传': 'Landray EIS 8.0 Frontend File Upload',
-  '朗新天霁sTalent前台文件上传': 'Longshine sTalent Frontend File Upload',
-  '浙江宇视科技SQL注入': 'Uniview SQL Injection',
-  '方略知识管理系统SQL注入': 'Fanglue KMS SQL Injection',
+  'PHP2Shell 漏洞分析复现与修复': 'PHP2Shell Vulnerability Analysis and Reproduction',
   '常见攻击手法详解': 'Common Attack Techniques',
   '历史攻击手法案例': 'Historical Attack Cases',
   '待完善': 'To Be Improved',
