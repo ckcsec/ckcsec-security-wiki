@@ -161,7 +161,7 @@ const zhSidebar = {
     {
       text: '漏洞速递',
       items: [
-        { text: 'PHP2Shell 漏洞分析复现与修复', link: '/web/cert/php2shell-漏洞分析复现与修复' }
+        { text: 'PHP2Shell：PHP 核心内存破坏致未认证远程代码执行（CVE-2026-109618 / CVE-2026-109619）', link: '/web/cert/php2shell-漏洞分析复现与修复' }
       ]
     }
   ],
@@ -274,7 +274,7 @@ const enText: Record<string, string> = {
   'AWVS的安装破解': 'AWVS Installation',
   'Nessus安装破解': 'Nessus Installation',
   'PowerShell攻击指南': 'PowerShell Attack Guide',
-  'PHP2Shell 漏洞分析复现与修复': 'PHP2Shell Vulnerability Analysis and Reproduction',
+  'PHP2Shell：PHP 核心内存破坏致未认证远程代码执行（CVE-2026-109618 / CVE-2026-109619）': 'PHP2Shell: Unauthenticated Remote Code Execution via PHP Core Memory Corruption (CVE-2026-109618 / CVE-2026-109619)',
   '常见攻击手法详解': 'Common Attack Techniques',
   '历史攻击手法案例': 'Historical Attack Cases',
   '待完善': 'To Be Improved',

@@ -1,8 +1,8 @@
 ---
-title: PHP2Shell Vulnerability Analysis, Reproduction and Remediation
+title: "PHP2Shell: Unauthenticated Remote Code Execution via PHP Core Memory Corruption (CVE-2026-109618 / CVE-2026-109619)"
 ---
 
-# PHP2Shell Vulnerability Analysis, Reproduction and Remediation
+# PHP2Shell: Unauthenticated Remote Code Execution via PHP Core Memory Corruption (CVE-2026-109618 / CVE-2026-109619)
 
 ## 0. Core Conclusions
 
